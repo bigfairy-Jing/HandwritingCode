@@ -154,3 +154,18 @@
 
 
 ### [22.Promise系列](./22.Promise系列.js)
+* ### 1.Promise  
+* 链式调用  
+* 错误捕获 (冒泡)  
+* 成功回调函数队列  
+* 失败回调函数队列  
+* 成功函数依次执行  
+* 失败的函数依次执行  
+* 立即执行executor  
+* 把内部的resolve 和 reject传入executor, 用户可以调用resolve和reject  
+* 保存this  
+* 分两种情况  
+* 1. 回调函数返回值是Promise,执行then操作  
+* 2. 不是Promise, 调用新的Promise的resolve函数  
+* 不同点 此时reject  
+* 附加
